@@ -94,7 +94,7 @@ void input(vector<int> &in, vector<int> &pre)
     int start, end;
     cout << "In-order: ";
     getline(cin, s);
-    if(s[0] == 'e')
+    if(s[0] == 'e' || s[0] == 'E')
         exit(0);
     start = 0;
     while(start < s.size() and is_number(s[start]))
