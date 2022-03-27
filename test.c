@@ -218,6 +218,6 @@ int main()
         pre(t->root);
         printf("\n");
     }
-    printf("e");
+    printf("q\n");
     return 0;
 }

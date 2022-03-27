@@ -94,7 +94,7 @@ void input(vector<int> &in, vector<int> &pre)
     int start, end;
     cout << "In-order: ";
     getline(cin, s);
-    if(s[0] == 'e' || s[0] == 'E')
+    if(s[0] == 'q' || s[0] == 'Q')
         exit(0);
     start = 0;
     while(start < s.size() and is_number(s[start]))
@@ -200,7 +200,7 @@ int main()
     cout << "***************************************" << endl;
     cout << " Separate the integers with one space." << endl;
     cout << " The integers must be distinct." << endl;
-    cout << " Press E to exit." << endl;
+    cout << " Press Q to exit." << endl;
     cout << "***************************************" << endl << endl;
     while(true)
     {
